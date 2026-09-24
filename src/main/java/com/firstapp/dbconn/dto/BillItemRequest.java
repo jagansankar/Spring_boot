@@ -1,12 +1,12 @@
 package com.firstapp.dbconn.dto;
 
-public class ProductRequest {
-    int productId;
-    int quantity;
+public class BillItemRequest {
 
-    public ProductRequest(int productId, int quantity) {
-        this.productId = productId;
-        this.quantity = quantity;
+    private int productId;
+
+    private int quantity;
+
+    public BillItemRequest() {
     }
 
     public int getProductId() {
